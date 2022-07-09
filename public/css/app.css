@@ -60,6 +60,11 @@ header .header-bottom .container li {
   list-style: none;
 }
 
+.jumbotron {
+  background-image: url("/images/jumbotron.jpg");
+  height: 25rem;
+}
+
 .container {
   margin: auto;
   width: 100%;

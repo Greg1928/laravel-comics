@@ -18,4 +18,7 @@
             <input type="text" placeholder="Search">
         </div>
     </div>
+    <div class="jumbotron">
+
+    </div>
 </header>
