@@ -8,9 +8,35 @@
         bottom: 1rem;
     }
 }
-.info-up{
-    margin-top: 4rem;
-}
+    .info-up{
+        margin-top: 4rem;
+
+        .container-small{
+            .left-up-part{
+                h2{
+                    text-transform: uppercase;
+                    color: #003f5e;
+                }
+                p{
+                    color: gray;
+                }
+                .price{
+                    background-color: #55ba59;
+                    margin: 1rem 0;
+                    height: 3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+            
+                    span{
+                        align-self: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
 .inline{
     display: inline-block;
 }
@@ -50,23 +76,13 @@
             }
         }
 
-    .price{
-        background-color: #55ba59;
-        margin: 1rem 0;
-        height: 3rem;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-
-        span{
-            align-self: center;
-            color: white;
-        }
-    }
     .specs-part{
         p{
             padding: 1rem 0;
         }
     }
     }
+}
+*{
+    font-family: 'Roboto', sans-serif;
 }

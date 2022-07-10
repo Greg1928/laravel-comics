@@ -18,9 +18,7 @@
                 <div class="price">
                     <span>U.S. Price: {{ $item['price'] }}</span>
                     <span>Available</span>
-                    <div class="inline">
-                        <span>check availability</span>
-                    </div>
+                    <span>check availability</span>
                 </div>
                 <div class="description">
                     <p>{{ $item['description'] }}</p>
