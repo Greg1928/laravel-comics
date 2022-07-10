@@ -66,5 +66,6 @@ Route::get('/', function () {
             'current' => false,
         ],
     ];
-    return view('home', compact('links'));
+    $comics = config('comics');
+    return view('home', compact('links' , 'comics'));
 });
