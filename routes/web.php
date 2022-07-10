@@ -25,4 +25,4 @@ Route::get('item/{id}', function ($id) {
     $item = $comics[$id];
 
     return view('comic', compact('item', 'links'));
-});
+})->where('id', '[0-9]+')->name('item');
